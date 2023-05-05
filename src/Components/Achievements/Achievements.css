@@ -1,0 +1,105 @@
+.achievement-section{
+    margin-top: 50px;
+    height: 45vh;
+    width: 1200px;
+}
+
+.achievement-slider{
+    margin: 0 auto;
+}
+
+.content-slider-main{
+    margin-top: 40px;
+    
+}
+
+.content-slider{
+    padding: 10px;
+    color: white;
+    background-color: #FF1042;
+    margin-top: 50px;
+    text-align: center;
+    margin-bottom: 30px;
+    cursor: pointer;
+    margin: 5px;
+    height: 210px;
+    border-radius: 5px;
+    
+}
+
+#dark .content-slider{
+    background-color: #38004C;
+    color: white;
+
+    box-shadow: -6px 11px 5px -4px rgba(0, 0, 0, 0.42);
+    -webkit-box-shadow: -6px 11px 5px -4px rgba(0, 0, 0, 0.42);
+    -moz-box-shadow: -6px 11px 5px -4px rgba(0, 0, 0, 0.42);
+}
+
+.content-slider:hover{
+    background-color: #001CCE;
+    transition-duration: 1s;
+
+    box-shadow: 15px 9px 9px -2px rgba(230, 224, 224, 0.86);
+    -webkit-box-shadow: 15px 9px 9px -2px rgba(230, 224, 224, 0.86);
+    -moz-box-shadow: 15px 9px 9px -2px rgba(230, 224, 224, 0.86);
+}
+
+.content-slider img.center-image{
+    height: 80px;
+    width: 80px;
+    border-radius: 90px;
+    display: block;
+    margin: 0 auto;
+    object-fit: cover;
+    margin-top: -30px;
+    justify-content: center;
+    align-items: center;
+    border: 5px solid yellow;
+}
+
+.content-slider p{
+    font-size: 16px;
+    margin-top: 10px;
+    font-weight: 300;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.slick-prev:before{
+    color: #FF1042!important;
+    font-size: 30px;
+}
+
+.slick-next:before{
+    color: #FF1042!important;
+    font-size: 30px;
+}
+
+/* @media (max-width:1000px) {
+    .achievement-section{
+        width:auto;
+    }
+    .content-slider p{
+        font-size: 14px;
+    }
+} */
+
+@media screen and (max-width: 1200px) {
+    .achievement-section {
+      padding: 0 20px;
+      max-width: 100%;
+      height: 20vh;
+    }
+  }
+
+  @media screen and (max-width: 768px) {
+    .achievement-slider {
+      width: 80%;
+    }
+    .content-slider p{
+        font-size: 13.5px;
+    }
+    .achievement-section{
+        height: 50vh;
+    }
+  }

@@ -1,0 +1,41 @@
+
+.workexperience-section{
+    margin-top: 70px;
+}
+
+.section-title h5{
+    text-align: center;
+    font-size: 26px;
+    font-weight: 600;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.timeline-section{
+    margin-top: 20px;
+}
+
+.timeline-section p{
+    text-align: justify;
+}
+
+.tech-skills p{
+    background-color: black;
+    border-radius: 90px;
+    color: white;
+    padding: 10px;
+    text-align: center;
+}
+
+.tech-skills p:hover{
+    background-color: gold;
+    cursor: pointer;
+    color: black;
+}
+
+.date-class{
+    color: black;
+}
+
+#dark .date-class{
+    color: white;
+}

@@ -1,0 +1,31 @@
+
+.social-container {
+  background-color: #e2ef9b;
+  padding: 25px 50px;
+}
+
+a.social {
+  margin: 0 1rem;
+  transition: transform 250ms;
+  display: inline-block;
+  padding: 10px;
+}
+
+a.social:hover {
+  transform: translateY(-2px);
+}
+
+.social-title h3{
+    text-align: center;
+    font-size: 26px;
+    font-weight: 600;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+#dark .social-container{
+  background-color: #38004c;
+}
+
+#dark a.social{
+  color: white;
+}

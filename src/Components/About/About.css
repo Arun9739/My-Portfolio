@@ -1,0 +1,108 @@
+.about-section {
+  box-shadow: 15px 9px 9px -2px rgba(230, 224, 224, 0.86);
+  -webkit-box-shadow: 15px 9px 9px -2px rgba(230, 224, 224, 0.86);
+  -moz-box-shadow: 15px 9px 9px -2px rgba(230, 224, 224, 0.86);
+  margin-top: 20px;
+  height: 400px;
+  width: 1100px;
+  /* margin-right: 170px; */
+  /* padding: 10px;
+    margin-top: 20px;  */
+}
+
+#dark .about-section {
+  box-shadow: none;
+  background-color: #38004c;
+
+  box-shadow: -6px 11px 5px -4px rgba(0, 0, 0, 0.42);
+  -webkit-box-shadow: -6px 11px 5px -4px rgba(0, 0, 0, 0.42);
+  -moz-box-shadow: -6px 11px 5px -4px rgba(0, 0, 0, 0.42);
+}
+
+.about-image {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+}
+
+.about-image img {
+  height: 300px;
+  width: 300px;
+  border-radius: 190px;
+  margin-top: 50px;
+  border: 5px solid yellow;
+  object-fit: cover;
+}
+
+.about-detail {
+  margin-top: 50px;
+  white-space: pre-wrap;
+  width: 500px;
+}
+
+.about-detail p {
+  margin-top: 20px;
+  text-align: justify;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+}
+
+.about-title h5 {
+  text-align: center;
+  font-size: 26px;
+  font-weight: 600;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+}
+
+.line {
+  display: block;
+  height: 3px;
+  width: 70px;
+  background-color: yellowgreen;
+  margin: 1px auto;
+}
+
+@media (max-width: 1000px) {
+  .about-section {
+    height: auto;
+    width: auto;
+  }
+  .about-image {
+    height: auto;
+  }
+  .about-detail {
+    width: fit-content;
+  }
+}
+
+@media (max-width: 767px) {
+  .about-image img {
+    height: 200px;
+    width: 200px;
+    border-radius: 100px;
+    margin-top: 25px;
+    border-width: 3px;
+  }
+}
+
+@media (min-width: 768px) and (max-width: 991px) {
+  .about-image img {
+    height: 250px;
+    width: 250px;
+    border-radius: 140px;
+    margin-top: 35px;
+    border-width: 4px;
+  }
+}
+
+@media (min-width: 992px) {
+  .about-image img {
+    height: 300px;
+    width: 300px;
+    border-radius: 190px;
+    margin-top: 50px;
+    border-width: 5px;
+  }
+}

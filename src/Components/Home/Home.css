@@ -1,0 +1,125 @@
+.home {
+  height: 400px;
+  color: white;
+  z-index: -1;
+}
+
+.home-content {
+  padding: 150px;
+  margin-top: -50px;
+  /* margin:auto;
+    padding: 10px;
+    margin-top: 100px; */
+}
+
+.home-content h3 {
+  margin-top: 15px;
+  color: yellow;
+}
+
+.button-for-action {
+  display: flex;
+  margin-top: 30px;
+}
+
+.hire-me-button {
+  background-color: #ff854c;
+  text-align: center;
+  width: 180px;
+  padding: 10px;
+  border-radius: 90px;
+  cursor: pointer;
+  margin-top: 10px;
+  border: 2px solid white;
+  font-size: 17px;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+}
+
+.hire-me-button:hover {
+  background-color: white;
+  width: 250px;
+  color: black;
+  transition-duration: 1s;
+}
+
+.get-resume-button {
+  background-color: orangered;
+  text-align: center;
+  width: 180px;
+  padding: 10px;
+  border-radius: 90px;
+  cursor: pointer;
+  margin-top: 10px;
+  border: 2px solid white;
+  font-size: 17px;
+  margin-left: 10px;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+}
+
+.get-resume-button:hover {
+  background-color: rgb(235, 245, 102);
+  width: 250px;
+  color: black;
+  transition-duration: 1s;
+}
+
+.get-resume-button a {
+  text-decoration: none;
+  color: black;
+}
+
+.theme-change {
+  justify-content: center;
+  height: 50px;
+  width: 50px;
+  background-color: #001cce;
+  right: 0;
+  margin-right: 10px;
+  text-align: center;
+  vertical-align: middle;
+  line-height: 50px;
+  position: fixed;
+  top: 150;
+  margin-top: 250px;
+  border-radius: 5px;
+  cursor: pointer;
+  z-index: 1;
+}
+
+.sun-theme-class {
+  animation: rotation infinite 5s linear;
+}
+
+@keyframes rotation {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+@media (max-width: 1000px) {
+  .theme-change {
+    display: none;
+  }
+  .home-content {
+    margin-top: 30px;
+    width: 600px;
+    padding: 120px;
+    margin-left: -80px;
+    z-index: 999;
+  }
+  .hire-me-button {
+    width: 100px;
+  }
+  .get-resume-button {
+    width: 120px;
+  }
+  .hire-me-button:hover {
+    width: 120px;
+  }
+  .get-resume-button:hover {
+    width: 140px;
+  }
+}
